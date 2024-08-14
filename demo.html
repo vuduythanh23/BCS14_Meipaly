@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DemoHTML-CSS</title>
+
+    <!-- internal style  -->
+    <!-- <style>
+        /* selector(bo chon) */
+        h2 {
+            font-size: 30px;
+            background-color: purple;
+            color: white;
+        }
+    </style> -->
+
+    <link rel="stylesheet" href="./css/demo.css">
+</head>
+<body>
+    <!-- inline stylte -->
+    <!-- nhuoc diem: tinh tai su dung khong co, gay roi phan bo cuc HTML  -->
+     <h1 style="background-color: black; color: white;">Inline Style</h1>
+     <h1 style="background-color: black; color: white;">BCS-14</h1>
+
+     <h2 class="bg-orange text-center">Number 1</h2>
+     <h2 class="bg-red text-center">Number 2</h2>
+
+    <!-- NV1: Khach hang Dong yeu cau mot layout HTML duoc cung cap gom mot the div, ben trong the div se co mot h3 voi noi dung "Toi la anh trai say ba" va se co mot class cho the h3 nay voi ten la "bg-green". Nhiem vu can thuc hien se tao css cho the h3 nay co nen xanh la chu trang va noi dung chu nam ben phai -->
+
+    <div>
+        <h3 class="bg-green">Anh trai say ba</h3>
+    </div>
+    <h4 id="demo">Ngay hom nay may xanh nang vang</h4>
+
+    <p class="text-blue bg-yellow">Lorem ipsum dolor sit amet.</p>
+    <p class="text-blue bg-yellow">Toi dang o Quan 3</p>
+
+    <div class="flex-container">
+        <div class="demo1">Logo</div>
+        <div class="demo2">Nut Dieu Huong</div>
+    </div>
+
+    <div class="margin_demo">
+        <div class="margin1"></div>
+        <div class="margin2">Hello toi la Padding day</div>
+    </div>
+    <div class="demo_boxsizing">
+        <div class="demo_box1"></div>
+        <div class="demo_box2"></div>
+        <div class="demo_box3"></div>
+        <div class="demo_box4"></div>
+    </div>
+</body>
+</html>

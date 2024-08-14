@@ -1,0 +1,135 @@
+/* selector elemnets */
+h2 {
+    font-size: 30px;
+    color: white;
+}
+
+/* selector class */
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-green {
+    background-color: green;
+    color: white;
+    text-align: right;
+}
+
+#demo {
+    background-color: chocolate;
+    color: white;
+}
+
+/* Gia tri uu tien la 1 */
+p {
+    background-color: blue;
+}
+
+/* Gia tri uu tien la 10 */
+.text-blue {
+    background-color: black;
+}
+
+/* ID > Thu tu > Gia Tri */
+.bg-yellow {
+    background-color: yellow;
+}
+
+/* css quan he cha con  */
+div .bg-green {
+    text-align: center;
+}
+
+/* demo ve flex trong du an */
+/* truc chinh - justify-content */
+/* truc phu - align-item */
+/* flex-start - ben trai  */
+/* flex-end - ben phai  */
+/* center - o giua  */
+
+.demo1 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    color: white;
+}
+.demo2 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    color: white;
+}
+
+.flex-container {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+        /* justify-content: center; */
+        /* justify-content: flex-end; */
+        /* justify-content: flex-start; */
+        justify-content: space-between;
+        /* justify-content: space-evenly; */
+        /* justify-content: space-around; */
+
+        /* align-items: flex-end; */
+        /* align-items: flex-end; */
+        align-items: flex-start;
+
+        /* flex-direction: column; */
+        /* flex-direction: column-reverse; */
+        /* flex-direction: row; */
+        flex-direction: row-reverse;
+
+    
+    }
+
+/* view-port (vh)-(vw)*/
+
+
+.margin_demo {
+    background-color: green;
+}
+
+/* noi dung + padding + border =  chieu dai + chieu cao cua mot the html */
+.margin1 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    /* margin la thuoc tinh tao khoang cach giua cac phan tu voi nhau */
+    /* mrgin co mot so cach truyen gia tri nhu: 2 gia tri (tren duoi va phai trai), 3 va 4 gia tri thi chinh chieu kim dau ho bat dau tuw top  */
+    margin: 20px 40px 60px 80px ;
+}
+
+.margin2 {
+    width: 450px;
+    height: 450px;
+    background-color: blue;
+    color: white;
+    /* padding: 30px; */
+    padding-top: 100px;
+    /* padding-left: ; */
+    /* padding-right: ; */
+    /* padding-bottom: ; */
+    box-sizing: border-box;
+}
+.demo_boxsizing {
+    background-color: brown;
+    height: 200px;
+}
+
+.demo_box1 {
+    width: 24%;
+    height: 150px;
+    display: inline-block;
+    background-color: blue;
+    box-sizing: border-box;
+    padding: 50px;
+}
